@@ -126,3 +126,20 @@ h1{
         text-shadow: 0 0 20px #00ffea, 0 0 30px #00ffea, 0 0 40px #00ffea, 0 0 50px #00ffea, 0 0 60px #bf00ff, 0 0 70px #00ffea, 0 0 80px #0077ff;
     }
 }
+
+@media screen and (max-width: 768px) {
+    /* Estilos para dispositivos móveis */
+    /* Aqui você pode ajustar o posicionamento dos elementos, margens, tamanhos de fonte, etc. */
+    body {
+        font-size: 16px; /* Tamanho de fonte menor para dispositivos móveis */
+        background-image: url('imgs/circuit.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+    
+    }
+    .header {
+        display: none; /* Ocultar o cabeçalho em dispositivos móveis */
+    }
+    /* Adicione mais estilos conforme necessário */
+
+}
