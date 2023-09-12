@@ -1,0 +1,128 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #000000;
+    background-image: url(imgs/circuit.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    cursor: url(styles/cursor2/normal-Purple.cur), auto;
+
+}
+
+.containerlogin {
+    background-image: url(imgs/container.png);
+    background-size: cover;
+    padding-bottom: 20px;
+    padding-top: 73px;
+    padding-left: 47px;
+    padding-right: 59px;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 10%;
+}
+
+.containercadastro {
+    background-image: url(imgs/container.png);
+    background-size: cover;
+    padding-bottom: 30px;
+    padding-top: 70px;
+    padding-left: 74px;
+    padding-right: 74px;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 10%;
+}
+
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input.email, input.senha, input.nome {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #e5adff;
+    border-radius: 5px;
+    color: #dcdcdc;
+    background-color: #000000;
+}
+
+button.entrar, button.cadastrar {
+    background-color: transparent;
+    border: 2px solid transparent;
+    color: #ffffff;
+    padding: 8px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+.entrar, .cadastrar::before {
+    content: "";
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    animation: border-color-change 5s linear infinite;
+}
+@keyframes border-color-change {
+    0% {
+        border-color: rgb(30, 0, 255);
+    }
+    25% {
+        border-color: rgb(195, 0, 255);
+    }
+    50% {
+        border-color: rgb(128, 0, 126);
+    }
+    75% {
+        border-color: rgb(0, 238, 255);
+    }
+    100% {
+        border-color: rgb(38, 0, 255);
+    }
+}
+
+p.pgnt {
+    margin-top: 10px;
+}
+
+a.c {
+    color: #f7e5fc;
+    text-shadow: 0 0 10px #ff00fb, 0 0 60px #fb00ff, 0 0 70px #f200ff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a.c:hover {
+    text-decoration: underline;
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+    color: #000000;
+    text-shadow: 0 0 10px #0091ff, 0 0 60px #0088ff, 0 0 70px #00b3ff;
+    animation: neon-animation 2s linear infinite alternate;
+}
+
+@keyframes neon-animation {
+    0% {
+        text-shadow: 0 0 10px #00ffea, 0 0 20px #00ffea, 0 0 50px #00ffea, 0 0 60px #00ffea, 0 0 70px #00ffea;
+    }
+    100% {
+        text-shadow: 0 0 20px #00ffea, 0 0 30px #00ffea, 0 0 40px #00ffea, 0 0 50px #00ffea, 0 0 60px #bf00ff, 0 0 70px #00ffea, 0 0 80px #0077ff;
+    }
+}

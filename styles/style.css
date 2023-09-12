@@ -1,0 +1,218 @@
+body{
+    background-color: #000000;
+    cursor: url(cursor2/normal-Purple.cur), auto;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.textotop{
+    background-image: url(imgstyle/cjs2.png);
+    background-size: cover;
+    color: #ffd8fe;
+    font-family: 'tektur';
+    padding: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-shadow: 0 0 10px #cc00ffaa, 0 0 20px #8c00ffad;
+    border: 20px;
+}
+
+span.contentleft{
+    color: #d8f8ff;
+    text-shadow: 0 0 10px #0026ffaa, 0 0 20px #0095ffad;
+    
+}
+
+.logo {
+    font-family: 'Gemunu Libre', sans-serif;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #db97ff;
+    text-shadow: 0 0 10px #cc00ff, 0 0 20px #00a2ff, 0 0 30px #a600ff; /* Efeito de neon */
+}
+
+.logo span.blink {
+    animation: blink 1s infinite; /* Animação de piscar */
+}
+
+@keyframes blink {
+    0%, 100% {
+        opacity: 1; /* Opacidade máxima */
+    }
+    25%, 75% {
+        opacity: 0; /* Opacidade mínima */
+    }
+}
+
+.banner {
+    background-image: url(imgstyle/banner.gif);
+    background-size: 75%;
+}
+
+.rodape {
+    background-color: #000000;
+}
+
+.container-fluid {
+    background-color: #000000;
+}
+
+.bi-house-fill {
+    color: #832cba;
+}
+
+.bi-heart-fill {
+    color: #832cba;
+}
+
+.bi-calendar3 {
+    color: #832cba;
+}
+
+.bi-gem {
+    color: #832cba;
+}
+
+.bi-chat-quote-fill {
+    color: #832cba;
+}
+
+.bi-gear-fill {
+    color: #832cba;
+}
+
+#titulo {
+    color: #cbefff;
+    text-shadow: 0 0 10px #29009b, 0 0 20px #0085d2;
+}
+
+#titulo2 {
+    color: #832cba;
+}
+
+.btnpesquisar{
+    color: rgb(255, 255, 255);
+    background-color: #BE28D1;
+    padding: 7px;
+    border-radius: 3px;
+    border: none;
+}
+
+.btninterativo{
+    background-color: #BE28D1;
+    color: white;
+    padding: 6px;
+    border: none;
+    border-radius: 4px;
+}
+
+.btnpostar{
+    color: white;
+    background-color: #6228D1;
+    padding: 5px;
+    border: none;
+    border-radius: 4px;
+}
+
+.contentleft{
+    color: white;
+    margin-left: 4px;
+}
+
+.form-control{
+    background-color: #000000;
+    color: white;
+    border-color: #832cba;
+}
+
+.form-label{
+    color: white;
+}
+
+.btnmsgs{
+    background-color: #3126c7;
+    color: white;
+    margin-left: 950px;
+    position: absolute;
+    border: none;
+    padding: 8px;
+    border-radius: 3px;
+    
+}
+
+.post{
+    background-color: #000000;
+    color: white;
+}
+
+.card{
+    background-color: #3126c7;
+}
+
+.card-body{
+    color: white;
+}
+
+h1{
+    color: white;
+}
+
+
+.notification-modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #8000ff;
+    border: 1px solid #00eaff;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgb(255, 110, 233);
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.notification-content {
+    background-color: #8a16fe;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #8a16fe;
+    width: 80%;
+}
+
+.janela{
+    background-color: #8000ff;
+    color: white;
+    font-family: 'tektur';
+    border: none;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
