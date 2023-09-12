@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
 <body>
     <div class="containerlogin">
@@ -17,23 +18,5 @@
         <a href="menu.html">atalho aqui</a>
         <p class="pgnt">Não possui login? <a href="cadastro.html" class="c">Cadastre-se</a></p>
     </div>
-
-    <script>
-      setInterval(function() {
-        var h1Element = document.querySelector('h1');
-        var text = h1Element.textContent; // Obtenha o texto do elemento <h1>
-        var newText = '';
-
-        for (var i = 0; i < text.length; i++) {
-            if (text.charAt(i).toLowerCase() === 'a') { // Verifique se é a letra "a" (ignorando maiúsculas/minúsculas)
-                newText += '<span class="blink">' + text.charAt(i) + '</span>';
-            } else {
-                newText += text.charAt(i);
-            }
-        }
-
-        h1Element.innerHTML = newText;
-    }, 1000);
-    </script>
 </body>
 </html>

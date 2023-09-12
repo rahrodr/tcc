@@ -15,9 +15,9 @@ body {
 .containerlogin {
     background-image: url(imgs/container.png);
     background-size: cover;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
     padding-top: 73px;
-    padding-left: 47px;
+    padding-left: 59px;
     padding-right: 59px;
     text-align: center;
     color: #ffffff;
@@ -54,7 +54,7 @@ input.email, input.senha, input.nome {
     background-color: #000000;
 }
 
-button.entrar, button.cadastrar {
+button.entrar {
     background-color: transparent;
     border: 2px solid transparent;
     color: #ffffff;
@@ -66,6 +66,19 @@ button.entrar, button.cadastrar {
     position: relative;
     overflow: hidden;
 }
+
+button.cadastrar{
+    background-color: transparent;
+    border: 2px solid transparent;
+    color: #ffffff;
+    padding: 8px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    position: relative;
+}
+
 .entrar, .cadastrar::before {
     content: "";
     position: absolute;

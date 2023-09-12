@@ -3,6 +3,47 @@ body{
     cursor: url(cursor2/normal-Purple.cur), auto;
 }
 
+/* Estilos para a janela de mensagem */
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1000;
+}
+
+.popup-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #000000;
+    color: rgb(255, 205, 249);
+    text-shadow:0 0 10px rgba(255, 48, 238, 0.675);
+    padding: 20px;
+    border-color: #0085d2;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 234, 255, 0.675);
+    text-align: center;
+} 
+
+#popup{
+    background-color: #65009b4b;
+    padding: 4px;
+    padding-left: 16px;
+    padding-right: 16px;
+    color: white;
+    border: none;
+    border-radius: 3px;
+
+}
+
+/* Outros estilos para o seu site */
+
+
 *{
     box-sizing: border-box;
     margin: 0;

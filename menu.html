@@ -12,10 +12,24 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Gemunu+Libre&family=Tektur:wght@500&display=swap" rel="stylesheet">
+<script src="script.js"></script>
+
     <title>Saturno</title>
 </head>
 
 <body>
+  
+  <div id="popup-container" class="popup">
+    <div class="popup-content">
+        <h2>Eaii, tudo bem?</h2>
+        <p>Esperamos que experiencie da melhor forma possível.
+         
+        </p>
+        <p>⚠ Por favor, mantenha um ambiente saudável e acolhedor!</p>
+        <button id="popup" onclick="fecharPopup()">Ok!</button>
+    </div>
+</div>
+
     <div class="banner">
         <nav class="navbar navbar-light">
             <div class="container">
@@ -198,54 +212,5 @@
                         </div>
                     </div>
     </div>
-
-
-   <!-- Janela
-   
-   <div class="notification-modal" id="notificationModal">
-      <div class="notification-content">
-          <span class="close" onclick="closeNotification()">&times;</span>
-          <h2>Hey, já bebeu água hoje?</h2>
-          <p></p>
-          <img style="margin-left: 95px;" src="styles/imgstyle/janela (Logotipo animado).gif" alt="" width="100px">
-          <br><button class="janela" onclick="closeNotification()">Fechar</button>
-      </div>
-  </div>--> 
-
-    <script>
-      setInterval(function() {
-        var h1Element = document.querySelector('h1');
-        var text = h1Element.textContent; // Obtenha o texto do elemento <h1>
-        var newText = '';
-
-        for (var i = 0; i < text.length; i++) {
-            if (text.charAt(i).toLowerCase() === 'a') { // Verifique se é a letra "a" (ignorando maiúsculas/minúsculas)
-                newText += '<span class="blink">' + text.charAt(i) + '</span>';
-            } else {
-                newText += text.charAt(i);
-            }
-        }
-
-        h1Element.innerHTML = newText;
-    }, 1000);
-
-
-    // janela 
-
-    // Função para exibir a notificação ao acessar o site
-/*function showNotification() {
-    var modal = document.getElementById('notificationModal');
-    modal.style.display = 'block';
-}
-
-// Função para fechar a notificação
-function closeNotification() {
-    var modal = document.getElementById('notificationModal');
-    modal.style.display = 'none';
-}
-
-// Chame a função para exibir a notificação
-showNotification(); */
-    </script>
   </body>
 </html>
