@@ -132,7 +132,7 @@ h1{
     /* Aqui você pode ajustar o posicionamento dos elementos, margens, tamanhos de fonte, etc. */
     body {
         font-size: 16px; /* Tamanho de fonte menor para dispositivos móveis */
-        background-image: url('imgs/circuit.png');
+        background-color: #000000;
         background-size: cover;
         background-repeat: no-repeat;
     
