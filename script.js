@@ -6,7 +6,7 @@ setInterval(function() {
     var newText = '';
 
     for (var i = 0; i < text.length; i++) {
-        if (text.charAt(i).toLowerCase() === 'a') { // Verifique se é a letra "a" (ignorando maiúsculas/minúsculas)
+        if (text.charAt(i).toLowerCase() === '7') { // Verifique se é a letra "a" (ignorando maiúsculas/minúsculas)
             newText += '<span class="blink">' + text.charAt(i) + '</span>';
         } else {
             newText += text.charAt(i);
