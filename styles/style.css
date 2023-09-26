@@ -41,7 +41,7 @@ body{
 
 }
 
-/* Outros estilos para o seu site */
+/* Outros estilos para o site */
 
 
 *{
@@ -183,8 +183,17 @@ span.contentleft{
     position: absolute;
     border: none;
     padding: 8px;
+    border-radius: 3px;   
+}
+
+.btnamzds{
+    background-color: #3126c7;
+    color: white;
+    margin-left: 950px;
+    position: absolute;
+    border: none;
+    padding: 8px;
     border-radius: 3px;
-    
 }
 
 .post{
@@ -257,4 +266,43 @@ h1{
     color: black;
     text-decoration: none;
     cursor: pointer;
+}
+
+/* tela de chat */
+
+.previsu{
+    color: rgba(255, 255, 255, 0.429);
+    margin-top: 3px;
+}
+
+.chat{
+    background-color: white;
+    position: relative;
+    display: flex;
+
+    padding-right: 300px;
+}
+
+/* tela pedidos */
+
+#aceitar{
+    background-color: #00000000;
+    padding-left: 10px;
+    padding-right: 6px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    text-shadow: 0 0 10px #48ff00, 0 0 20px #48ff00;
+    font-size: 15px;
+}
+#recusar{
+    background-color: #00000000;
+    padding-left: 6px;
+    padding-right: 6px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    text-shadow: 0 0 10px #ff0000, 0 0 20px #ff3c00;
+    margin-left: 3px;
+    font-size: 15px;
 }
