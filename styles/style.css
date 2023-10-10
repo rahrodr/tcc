@@ -306,3 +306,26 @@ h1{
     margin-left: 3px;
     font-size: 15px;
 }
+
+/*tela comunidade*/
+
+section#categoria{
+    
+}
+
+.btncomunidade{
+    width: 250px;
+    height: 250px;
+    border: none;
+    border-radius: 5px;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.btncomunidade:hover {
+    transform: scale(0.9); /* Aumenta a escala do botão */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); /* Adiciona sombra para criar o efeito de elevação */
+}
