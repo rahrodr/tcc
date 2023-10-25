@@ -313,6 +313,12 @@ section#categoria{
     
 }
 
+.txtcomunidade{
+    font-size: 20px;
+    color: white;
+    margin-left: 20px;
+}
+
 .btncomunidade{
     width: 250px;
     height: 250px;

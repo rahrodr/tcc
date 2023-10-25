@@ -79,6 +79,13 @@ button.cadastrar{
     position: relative;
 }
 
+.entrar:hover{
+    background-color: #00212854;
+}
+.cadastrar:hover{
+    background-color: #00212854;
+}
+
 .entrar, .cadastrar::before {
     content: "";
     position: absolute;
