@@ -16,7 +16,7 @@
             <input class="senha" type="password" placeholder="Senha" required>
             <button class="entrar" type="submit">Entrar</button>
         </form>
-        <a href="menu.html">atalho aqui</a>
+        <a href="menu.php">atalho aqui</a>
         <p class="pgnt">Não possui login? <a href="cadastro.php" class="c">Cadastre-se</a></p>
     </div>
   <%php
