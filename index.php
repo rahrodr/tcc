@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
 </head>
-<body>
+<body> 
 <?php include("config.php");?>
     <div class="containerlogin">
         <h1>Login</h1>
@@ -19,9 +19,6 @@
         <a href="menu.php">atalho aqui</a>
         <p class="pgnt">Não possui login? <a href="cadastro.php" class="c">Cadastre-se</a></p>
     </div>
-  <%php
-    
-  %>
   
     
 </body>
